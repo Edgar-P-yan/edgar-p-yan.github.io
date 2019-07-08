@@ -1,5 +1,5 @@
 {
-  "name": "gitfolio-Edgar-P-yan",
+  "name": "gitfolio-edgar-p-yan",
   "version": "1.0.0",
   "repository": "https://github.com/Edgar-P-yan/edgar-p-yan.github.io.git",
   "author": "Edgar P-Yan <starguitar307@gmail.com>",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "gitfolio build Edgar-P-yan --sort star --background \"https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80\" && npm run move",
     "move": "mv ./dist/* ./",
-    "commit": "git add . && git commit -m \"Update\"",
+    "commit": "git add . && git commit -m \"Updated\"",
     "push": "git push origin master",
     "update": "npm run build && npm run commit && npm run push"
   },
