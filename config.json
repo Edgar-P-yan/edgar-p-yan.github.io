@@ -6,6 +6,10 @@
   "sort": "star",
   "order": "desc",
   "includeFork": false,
-  "theme": "light.css"
+  "theme": "light.css",
+  "types": [
+   "all"
+  ],
+  "medium": "edgar-p-yan"
  }
 ]
