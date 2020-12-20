@@ -6,7 +6,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "gitfolio build Edgar-P-yan --theme dark.css --sort star --order desc --medium edgar-p-yan --background \"/background.jpg\" && npm run move",
+    "build": "gitfolio build Edgar-P-yan --theme dark --sort star --order desc --medium edgar-p-yan --background \"/background.jpg\" && npm run move",
     "move": "mv ./dist/* ./",
     "commit": "git add . && git commit -m \"Updated\"",
     "push": "git push origin master",
