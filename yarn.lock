@@ -474,27 +474,26 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gitfolio@^0.1.5:
+"gitfolio@github:imfunniee/gitfolio":
   version "0.1.5"
-  resolved "https://registry.yarnpkg.com/gitfolio/-/gitfolio-0.1.5.tgz#e2dd8e4fec5ff528b452cd4a820df8e908152138"
-  integrity sha512-gLgORvesTOZK40QG9b3PS0+MHE+UU+2MhgmbhvlWrsQooynwFqarWfVbGDs20RvuaIRSpg4KxkerK7joyxSQGg==
+  resolved "https://codeload.github.com/imfunniee/gitfolio/tar.gz/1de7fd23effcfb99fba69e164d4e7bf5de594ec6"
   dependencies:
     bluebird "^3.5.4"
     body-parser "^1.19.0"
     commander "^2.20.0"
     ejs "^2.6.2"
     express "^4.17.0"
-    github-emoji "^1.1.0"
+    github-emoji "^1.1.1"
     got "^9.6.0"
     handlebars "^4.1.2"
     jsdom "^15.1.0"
     ncp "^2.0.0"
     prettier "^1.18.2"
 
-github-emoji@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/github-emoji/-/github-emoji-1.1.0.tgz#5d4c6c85ff5a9b856d841c9414c1bebbdb7750cf"
-  integrity sha512-FCs0tDDtX/pwkXN6sQE5lUC6B4PIIFC+rv7IZAw8956Mtvo5NQSWHEBJvExl+B8+ahqNVU0W33hMrXSIEFSUvA==
+github-emoji@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/github-emoji/-/github-emoji-1.1.1.tgz#f108a0b5ca9f6989e6a91bd5dfd82801840a6c75"
+  integrity sha512-SxiGZf8wfMRwg8QwQlHwKMjR7oyy2H3iCpXRzOTp4Mq/xNTNgV9Yi6Y6zwk0Aty6ZUpRC3oJS+Ya5Dgb+DVTiA==
 
 got@^9.6.0:
   version "9.6.0"

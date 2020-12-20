@@ -13,6 +13,6 @@
     "update": "npm run build && npm run commit && npm run push"
   },
   "devDependencies": {
-    "gitfolio": "^0.1.5"
+    "gitfolio": "github:imfunniee/gitfolio"
   }
 }
