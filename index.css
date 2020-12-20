@@ -554,6 +554,6 @@ body {
       rgba(10, 10, 10, 0.4),
       rgb(10, 10, 10, 0.4)
     ),
-    url("https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80");
+    url("/background.jpg");
   --background-background: #fff;
 }
