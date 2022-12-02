@@ -1,0 +1,18 @@
+{
+  "name": "gitfolio-edgar-p-yan",
+  "version": "1.0.0",
+  "repository": "https://github.com/Edgar-P-yan/edgar-p-yan.github.io.git",
+  "author": "Edgar P-Yan <starguitar307@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "gitfolio build Edgar-P-yan --theme dark --sort star --order desc --medium edgar-p-yan --background \"/background.jpg\" && npm run move",
+    "move": "mv ./dist/* ./",
+    "commit": "git add . && git commit -m \"Updated\"",
+    "push": "git push origin master",
+    "update": "npm run build && npm run commit && npm run push"
+  },
+  "devDependencies": {
+    "gitfolio": "github:imfunniee/gitfolio"
+  }
+}
